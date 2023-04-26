@@ -18,7 +18,7 @@ body {
 .main-section,
 .main-container,
 .main-header,
-ul,
+.list,
 li {
     display: flex;
 }
@@ -48,7 +48,7 @@ footer {
 }
 
 .main-container {
-    width: 70%;
+    width: 75%;
     flex-direction: column;
 }
 
@@ -72,12 +72,12 @@ i {
     margin-right: 7px;
 }
 
-nav ul li {
+nav .list li {
     text-decoration: none;
     margin-left: 20px;
 }
 
-ul li a,
+.list li a,
 .text {
     font-size: 18px;
     color: #E5E7EB;
