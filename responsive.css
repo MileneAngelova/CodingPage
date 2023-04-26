@@ -1,0 +1,187 @@
+@media all and (max-width: 1000px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    h2, .quote-text, .quote-author {
+        font-size: 30px;
+    }
+
+    .quote-text {
+        width: 65%;
+    }
+
+    h3,
+    i {
+        font-size: 18px;
+    }
+}
+
+
+@media all and (max-width: 896px) {
+
+    .main,
+    footer {
+        width: 100vw;
+    }
+
+    .main-section {
+        margin-top: 0px;
+        padding: 1%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    .main-header,
+    .content {
+        flex-direction: column;
+    }
+
+    #logo {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    h3,
+    i {
+        font-size: 18px;
+    }
+
+    .main,
+    .main-section,
+    .main-container,
+    .main-header,
+    .list,
+    li,
+    .content,
+    .content-text,
+    .content-image {
+        align-items: center;
+    }
+
+    .list li a {
+        font-size: 16px;
+    }
+
+    .content {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 80%;
+        align-self: center;
+    }
+
+    .button.heading {
+        margin-bottom: 5%;
+    }
+
+    .content-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2, .quote-text, .quote-author {
+        font-size: 30px;
+    }
+
+    .image {
+        /* gap: 7%; */
+        flex-wrap: wrap;
+        align-items: center;
+        /* justify-content: space-evenly; */
+    }
+
+    .picture p {
+        font-size: 14px;
+    }
+
+    .quote-author {
+        font-weight: 400;
+    }
+
+    .quote-container {
+        font-size: 16px;
+    }
+
+    .quote-text {
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .banner {
+        width: 85%;
+        height: 75px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .banner {
+        width: 95%;
+    }
+
+    .banner-container {
+        font-size: 12px;
+    }
+
+    h2, .quote-text, .quote-author {
+        font-size: 22px;
+    }
+    .quote-text {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 420px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .list li a {
+        font-size: 14px;
+    }    
+
+    h2, .quote-text, .quote-author {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
