@@ -7,7 +7,9 @@
         font-size: 16px;
     }
 
-    h2, .quote-text, .quote-author {
+    h2,
+    .quote-text,
+    .quote-author {
         font-size: 30px;
     }
 
@@ -22,7 +24,7 @@
 }
 
 
-@media all and (max-width: 896px) {
+@media all and (max-width: 800px) {
 
     .main,
     footer {
@@ -103,15 +105,14 @@
         flex-direction: column;
     }
 
-    h2, .quote-text, .quote-author {
+    h2,
+    .quote-text,
+    .quote-author {
         font-size: 30px;
     }
 
     .image {
-        /* gap: 7%; */
         flex-wrap: wrap;
-        align-items: center;
-        /* justify-content: space-evenly; */
     }
 
     .picture p {
@@ -159,9 +160,12 @@
         font-size: 12px;
     }
 
-    h2, .quote-text, .quote-author {
+    h2,
+    .quote-text,
+    .quote-author {
         font-size: 22px;
     }
+
     .quote-text {
         width: 80%;
     }
@@ -175,13 +179,33 @@
 
     .list li a {
         font-size: 14px;
-    }    
+    }
 
-    h2, .quote-text, .quote-author {
+    h2,
+    .quote-text,
+    .quote-author {
         font-size: 16px;
+    }
+
+    .face {
+        height: 80%;
+        width: 80%;
+    }
+
+    .picture {
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+
+    .picture figcaption p {
+        font-size: 12px;
     }
 
     .text {
         font-size: 14px;
+    }
+
+    .banner {
+        padding: 2%;
     }
 }

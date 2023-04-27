@@ -57,9 +57,14 @@ footer {
     margin-top: 2%;
 }
 
-#logo {
+/* #logo {
     display: flex;
     align-items: center;
+} */
+
+#logo a {
+    display: flex;
+    text-decoration: none;
 }
 
 h3,
@@ -113,8 +118,8 @@ h1 {
 .button {
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 125px;
-    height: 30px;
+    width: 122px;
+    height: 33px;
     border-radius: 7px;
 }
 
@@ -138,18 +143,19 @@ h2 {
 
 .picture {
     width: 30%;
-    margin-left: 20px;
+    margin-left: 7%;
 }
 
 .face {
-    height: 120px;
-    width: 120px;
+    height: 145px;
+    width: 145px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .quote {
-    margin-top: 7%;
-    margin-bottom: 7%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .quote-container {
@@ -171,19 +177,20 @@ h2 {
 
 .quote-author {
     text-align: right;
+    font-size: 22px;
     font-weight: 600;
     font-style: normal;
 }
 
 .banner {
     display: flex;
-    width: 65%;
-    height: 95px;
+    width: 70%;
+    height: 120px;
     background-color: #3882F6;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 7%;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid white;
     color: #F9FAF8;
 }
@@ -199,6 +206,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     color: #E5E7EB;
-    height: 60px;
+    height: 90px;
     text-align: center;
 }
