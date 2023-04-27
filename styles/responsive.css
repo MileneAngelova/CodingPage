@@ -208,4 +208,9 @@
     .banner {
         padding: 2%;
     }
+
+    footer p,
+    footer a {
+        font-size: 14px;
+    }
 }
