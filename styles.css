@@ -13,7 +13,15 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
+a:active {
+    color:#E5E7EB;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color:#E5E7EB;
+}
 .main,
 .main-section,
 .main-container,
@@ -116,6 +124,7 @@ h1 {
     width: 125px;
     height: 30px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .button.heading {
@@ -202,3 +211,46 @@ footer {
     height: 60px;
     text-align: center;
 }
+
+/*Start of contact page*/
+.main-section-login{
+    
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: #ffffff;
+    display: flex;
+}
+.content-right{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    color: #000000;
+    display: block;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.group{
+
+    text-transform: uppercase;
+    width: 60%;
+    display: block;
+
+}
+.button.contact{
+    margin-top: 10px;
+}
+/*End of contact page*/
