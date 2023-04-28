@@ -372,7 +372,10 @@ footer {
     height: 200px;
     margin: 20px;
     box-sizing: border-box;
-    justify-content: center;     
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;    
 }
 
 /* End browse page */
