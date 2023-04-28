@@ -261,3 +261,24 @@ footer {
     margin-top: 10px;
 }
 /*End of contact page*/
+
+.areas{
+    display: flex;
+    justify-content: center;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.box{
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+    justify-content: center;     
+}
