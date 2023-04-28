@@ -3,6 +3,10 @@
         font-size: 34px;
     }
 
+    #logo, .list li a {
+        font-size: 16px;
+    }
+
     .text {
         font-size: 16px;
     }
@@ -36,8 +40,8 @@
         padding: 1%;
     }
 
-    .main-container {
-        width: 100%;
+    .main-container, .main-content {
+        width: 80%;
     }
 
     .main-header,
@@ -70,7 +74,7 @@
     }
 
     .list li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .content {
@@ -81,11 +85,11 @@
     .content-text {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
 
     h1 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .text {
@@ -97,12 +101,17 @@
     }
 
     .button.heading {
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     .content-image {
         display: flex;
         flex-direction: column;
+        width: 80%;
+    }
+
+    .heading-img {
+        width: 80%;
     }
 
     h2,
@@ -148,8 +157,15 @@
 }
 
 @media all and (max-width: 550px) {
+    .main-container {
+        width: 100%;
+    }
     h1 {
         font-size: 26px;
+    }
+
+    .text {
+        width: 90%;
     }
 
     .banner {
