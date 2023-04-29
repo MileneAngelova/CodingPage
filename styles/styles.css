@@ -378,4 +378,10 @@ footer {
     text-align: center;    
 }
 
+.home{
+    width: 25px;
+    size: 25px;
+    justify-content: flex-end;
+}
+
 /* End browse page */
