@@ -229,7 +229,7 @@ h2 {
 footer {
     margin: auto;
     margin-top: 8%;
-    margin-bottom: 15%;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
