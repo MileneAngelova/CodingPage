@@ -1,9 +1,15 @@
 @media all and (max-width: 1000px) {
+
+    .main-section {
+        margin-top: 3%;
+    }
+
     h1 {
         font-size: 34px;
     }
 
-    #logo, .list li a {
+    #logo,
+    .list li a {
         font-size: 16px;
     }
 
@@ -45,7 +51,8 @@
         padding: 1%;
     }
 
-    .main-container, .main-content {
+    .main-container,
+    .main-content {
         width: 80%;
     }
 
@@ -63,7 +70,7 @@
 
     h3,
     i {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .main,
@@ -79,8 +86,8 @@
     }
 
     .list li a {
-        font-size: 14px;
-        
+        font-size: 16px;
+
     }
 
     .content {
@@ -200,7 +207,7 @@
 }
 
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 480px) {
     h1 {
         font-size: 20px;
     }
@@ -243,45 +250,131 @@
     }
 }
 
-/* Start browsing page */
+/* Start login page */
+
+@media all and (max-width: 1000px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .login {
+        width: 95%;
+    }
+
+    .main-container {
+        width: 80%;
+    }
+
+    .form {
+        width: 85%;
+    }
+}
+
 
 @media all and (max-width: 800px) {
 
-.main-section-courses {
-margin-top: 0px;
+    .form h1 {
+        font-size: 30px;
+    }
+
+    .details input {
+        width: 65%;
+    }
 }
 
-.logo-text {
-    font-size: 20px;
+
+@media all and (max-width: 650px) {
+
+    .form h1 {
+        font-size: 28px;
+    }
+
+    .details input {
+        width: 85%;
+    }
 }
 
-.areas {
-    align-items: center;
+@media all and (max-width: 400px) {
+
+    .form h1 {
+        font-size: 24px;
+    }
+
+    .details input {
+        width: 95%;
+    }
 }
 
-.box-container {
-    width: 90%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    flex-direction: row;
-    flex-wrap: wrap;
+/* End login page */
+
+/* Start register page */
+
+@media all and (max-width: 800px) {
+
+    .content-right {
+        margin-left: 0px;
+    }
+
+    .main-section-login {
+        margin-top: 0px;
+    }
+
+    @media all and (max-width: 650px) {
+        .main-section-login .content .content-text h1 {
+            font-size: 28px;
+        }
+    }
 }
 
-.box {
-    height: 130px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
+/* End register page */
+
+/* Start browsing page */
+
+@media all and (max-width: 1000px) {
+
+    .box-container {
+        flex-wrap: wrap;
+    }
 }
 
-br {
-    display: none;
-}
+@media all and (max-width: 800px) {
 
-.face {
-    height: 90px;
-    width: 90px;
-}
+    .main-section-courses {
+        margin-top: 0px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .areas {
+        align-items: center;
+    }
+
+    .box-container {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 130px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .face {
+        height: 90px;
+        width: 90px;
+    }
 }
 
 /* End browsing page */
