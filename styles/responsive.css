@@ -35,6 +35,11 @@
         width: 100vw;
     }
 
+    .login {
+        position: relative;
+        width: 80%;
+    }
+
     .main-section {
         margin-top: 0px;
         padding: 1%;
@@ -75,6 +80,7 @@
 
     .list li a {
         font-size: 14px;
+        
     }
 
     .content {
@@ -160,6 +166,12 @@
     .main-container {
         width: 100%;
     }
+
+    .login {
+        position: relative;
+        width: 95%;
+    }
+
     h1 {
         font-size: 26px;
     }
@@ -256,6 +268,9 @@ margin-top: 0px;
 }
 
 .box {
+    height: 130px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
 }
 

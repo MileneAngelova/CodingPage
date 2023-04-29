@@ -75,6 +75,14 @@ footer {
     text-decoration: none;
 }
 
+#logo i:hover {
+    color: #E5E7EB;
+}
+
+#logo h3:hover {
+    color: #E5E7EB;
+}
+
 h3,
 i {
     font-size: 24px;
@@ -91,6 +99,10 @@ i {
 
 .list li a {
     text-decoration: none;
+}
+
+.list li a:hover {
+    color: #F9FAF8;
 }
 
 .list li a,
