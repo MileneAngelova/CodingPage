@@ -1,16 +1,7 @@
 @media all and (max-width: 1000px) {
 
-    .main-section {
-        margin-top: 3%;
-    }
-
     h1 {
         font-size: 34px;
-    }
-
-    #logo,
-    .list li a {
-        font-size: 16px;
     }
 
     .text {
@@ -51,7 +42,6 @@
         padding: 1%;
     }
 
-    .main-container,
     .main-content {
         width: 80%;
     }
@@ -61,13 +51,6 @@
         flex-direction: column;
     }
 
-    #logo {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 5%;
-    }
-
     h3,
     i {
         font-size: 20px;
@@ -75,7 +58,6 @@
 
     .main,
     .main-section,
-    .main-container,
     .main-header,
     .list,
     li,
@@ -83,6 +65,11 @@
     .content-text,
     .content-image {
         align-items: center;
+    }
+
+    .main-header nav {
+        display: flex;
+        justify-content: center;
     }
 
     .list li a {
@@ -137,6 +124,10 @@
         flex-wrap: wrap;
     }
 
+    .image article {
+        flex-wrap: wrap;
+    }
+
     .picture p {
         font-size: 14px;
     }
@@ -170,9 +161,6 @@
 }
 
 @media all and (max-width: 550px) {
-    .main-container {
-        width: 100%;
-    }
 
     .login {
         position: relative;
@@ -210,6 +198,10 @@
 @media all and (max-width: 480px) {
     h1 {
         font-size: 20px;
+    }
+
+    .list li {
+        margin-left: 10px;
     }
 
     .list li a {
@@ -260,10 +252,6 @@
 
     .login {
         width: 95%;
-    }
-
-    .main-container {
-        width: 80%;
     }
 
     .form {

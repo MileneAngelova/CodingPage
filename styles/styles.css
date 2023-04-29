@@ -14,47 +14,37 @@ body {
     font-style: normal;
 }
 
-a:active {
-    color: #E5E7EB;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: #E5E7EB;
-}
-
 .main,
 .main-section,
-.main-container,
 .main-header,
 .list,
 li {
     display: flex;
 }
 
-.main,
-footer {
-    width: 80%;
+.main-header {
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main {
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.main-header,
 .main-section,
 footer {
     background-color: #1F2937;
-    color: #F9FAF8;
+}
+
+.main-header,
+.main-section {
+    padding: 1% 10%;
 }
 
 .main-section {
-    margin-top: 10%;
     flex-direction: column;
     align-items: center;
 }
@@ -64,23 +54,20 @@ footer {
     flex-direction: column;
 }
 
-.main-header {
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2%;
-}
-
-#logo a {
-    display: flex;
+.main-header a {
     text-decoration: none;
 }
 
-#logo i:hover {
+.main-header i:hover {
     color: #d3cccc;
 }
 
-#logo h3:hover {
+.main-header h3:hover {
     color: #d3cccc;
+}
+
+.main-header h3 {
+    display: inline-block;
 }
 
 h3,
@@ -94,11 +81,13 @@ i {
 }
 
 .list li {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .list li a {
     text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .list li a:hover {
@@ -166,7 +155,14 @@ h2 {
 
 .image {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.image article {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
 }
 
 .picture {
@@ -188,23 +184,19 @@ h2 {
 
 .quote-container {
     display: flex;
+    flex-direction: column;
+    padding: 10% 10%;
     align-items: center;
     justify-content: space-around;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-}
-
-.quote-text {
-    width: 50%;
-    margin-top: 10%;
-    margin-bottom: 10%;
     color: #1F2937;
 }
 
 .quote-author {
-    text-align: right;
+    align-self: flex-end;
     font-size: 22px;
     font-weight: 600;
     font-style: normal;
@@ -227,9 +219,7 @@ h2 {
 }
 
 footer {
-    margin: auto;
     margin-top: 8%;
-    margin-bottom: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,9 +229,8 @@ footer {
 }
 
 /* Start of contact page */
-.main-section-login {
 
-    margin-top: 10%;
+.main-section-login {
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
@@ -273,11 +262,9 @@ footer {
 }
 
 .group {
-
     text-transform: uppercase;
     width: 60%;
     display: block;
-
 }
 
 .button.contact {
@@ -295,7 +282,6 @@ footer {
 .login {
     position: relative;
     width: 70%;
-    margin-top: 2%;
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
@@ -358,25 +344,12 @@ footer {
     margin-bottom: 5%;
 }
 
-.footer-login {
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 8%;
-    margin-bottom: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #E5E7EB;
-    height: 90px;
-    text-align: center;
-}
-
 /* End of Login page */
 
 /* Start browse page */
 
 .main-section-courses {
-    margin-top: 10%;
+    padding-top: 1%;
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
@@ -384,19 +357,19 @@ footer {
     display: flex;
 }
 
-.areas{
+.areas {
     display: flex;
     justify-content: center;
 }
 
-.box-container{
+.box-container {
     display: flex;
     flex-direction: row;
     margin-top: 10%;
     margin-bottom: 10%;
 }
 
-.box{
+.box {
     width: 20%;
     height: 200px;
     margin: 20px;
@@ -404,13 +377,7 @@ footer {
     justify-content: center;
     padding-left: 45px;
     padding-right: 45px;
-    text-align: center;    
-}
-
-.home{
-    width: 25px;
-    size: 25px;
-    justify-content: flex-end;
+    text-align: center;
 }
 
 /* End browse page */
