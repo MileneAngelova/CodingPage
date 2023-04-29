@@ -1,0 +1,380 @@
+@media all and (max-width: 1000px) {
+
+    .main-section {
+        margin-top: 3%;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    #logo,
+    .list li a {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    h2,
+    .quote-text,
+    .quote-author {
+        font-size: 30px;
+    }
+
+    .quote-text {
+        width: 65%;
+    }
+
+    h3,
+    i {
+        font-size: 18px;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+
+    .main,
+    footer {
+        width: 100vw;
+    }
+
+    .login {
+        position: relative;
+        width: 80%;
+    }
+
+    .main-section {
+        margin-top: 0px;
+        padding: 1%;
+    }
+
+    .main-container,
+    .main-content {
+        width: 80%;
+    }
+
+    .main-header,
+    .content {
+        flex-direction: column;
+    }
+
+    #logo {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    h3,
+    i {
+        font-size: 20px;
+    }
+
+    .main,
+    .main-section,
+    .main-container,
+    .main-header,
+    .list,
+    li,
+    .content,
+    .content-text,
+    .content-image {
+        align-items: center;
+    }
+
+    .list li a {
+        font-size: 16px;
+
+    }
+
+    .content {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 80%;
+        align-self: center;
+    }
+
+    .button.heading {
+        margin-bottom: 10%;
+    }
+
+    .content-image {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .heading-img {
+        width: 80%;
+    }
+
+    h2,
+    .quote-text,
+    .quote-author {
+        font-size: 30px;
+    }
+
+    .image {
+        flex-wrap: wrap;
+    }
+
+    .picture p {
+        font-size: 14px;
+    }
+
+    .quote-author {
+        font-weight: 400;
+    }
+
+    .quote-container {
+        font-size: 16px;
+    }
+
+    .quote-text {
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .banner {
+        width: 85%;
+        height: 75px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .login {
+        position: relative;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .banner {
+        width: 95%;
+    }
+
+    .banner-container {
+        font-size: 12px;
+    }
+
+    h2,
+    .quote-text,
+    .quote-author {
+        font-size: 22px;
+    }
+
+    .quote-text {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .list li a {
+        font-size: 14px;
+    }
+
+    h2,
+    .quote-text,
+    .quote-author {
+        font-size: 16px;
+    }
+
+    .face {
+        height: 80%;
+        width: 80%;
+    }
+
+    .picture {
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+
+    .picture figcaption p {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .banner {
+        padding: 2%;
+    }
+
+    footer p,
+    footer a {
+        font-size: 14px;
+    }
+}
+
+/* Start login page */
+
+@media all and (max-width: 1000px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .login {
+        width: 95%;
+    }
+
+    .main-container {
+        width: 80%;
+    }
+
+    .form {
+        width: 85%;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+
+    .form h1 {
+        font-size: 30px;
+    }
+
+    .details input {
+        width: 65%;
+    }
+}
+
+
+@media all and (max-width: 650px) {
+
+    .form h1 {
+        font-size: 28px;
+    }
+
+    .details input {
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    .form h1 {
+        font-size: 24px;
+    }
+
+    .details input {
+        width: 95%;
+    }
+}
+
+/* End login page */
+
+/* Start register page */
+
+@media all and (max-width: 800px) {
+
+    .content-right {
+        margin-left: 0px;
+    }
+
+    .main-section-login {
+        margin-top: 0px;
+    }
+
+    @media all and (max-width: 650px) {
+        .main-section-login .content .content-text h1 {
+            font-size: 28px;
+        }
+    }
+}
+
+/* End register page */
+
+/* Start browsing page */
+
+@media all and (max-width: 1000px) {
+
+    .box-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .main-section-courses {
+        margin-top: 0px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .areas {
+        align-items: center;
+    }
+
+    .box-container {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 130px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .face {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+/* End browsing page */
