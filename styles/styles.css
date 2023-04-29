@@ -60,7 +60,7 @@ footer {
 }
 
 .main-container {
-    width: 85%;
+    width: 75%;
     flex-direction: column;
 }
 
@@ -210,7 +210,7 @@ h2 {
 }
 
 footer {
-    margin-left: 10%;
+    margin: auto;
     margin-top: 8%;
     margin-bottom: 15%;
     display: flex;
@@ -221,17 +221,20 @@ footer {
     text-align: center;
 }
 
-/* Start of Register page */
+/* Start of contact page */
 .main-section-login {
+
     margin-top: 10%;
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
-    color: #F9FAF8;;
+    color: #ffffff;
     display: flex;
 }
 
 .content-right {
+    margin-top: 20px;
+    margin-left: 120px;
     width: 500px;
     height: 300px;
     display: flex;
@@ -248,7 +251,7 @@ footer {
     border: none;
     padding: 15px 20px;
     border-radius: 25px;
-    background: #F9FAF8;;
+    background: rgb(255, 255, 255);
     margin-top: 10px;
 }
 
@@ -264,11 +267,11 @@ footer {
     margin-top: 10px;
 }
 
-/* End of Register page */
+/* End of contact page */
 
 /* Start of Login Page */
 
-.main-header, .form {
+.main-container {
     z-index: 1;
 }
 
@@ -327,13 +330,14 @@ footer {
     border: 1px solid #E5E7EB;
     border-radius: 25px;
     height: 40px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-top: 10px;
-    width: 60%;
+    width: 50%;
     padding-left: 4%;
 }
 
 .form-control button {
+    margin-top: 1%;
     margin-bottom: 5%;
 }
 
@@ -354,6 +358,15 @@ footer {
 
 /* Start browse page */
 
+.main-section-courses {
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
 .areas{
     display: flex;
     justify-content: center;
@@ -362,7 +375,6 @@ footer {
 .box-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -372,7 +384,10 @@ footer {
     height: 200px;
     margin: 20px;
     box-sizing: border-box;
-    justify-content: center;     
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;    
 }
 
 /* End browse page */

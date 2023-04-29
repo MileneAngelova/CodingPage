@@ -230,3 +230,43 @@
         font-size: 14px;
     }
 }
+
+/* Start browsing page */
+
+@media all and (max-width: 800px) {
+
+.main-section-courses {
+margin-top: 0px;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.areas {
+    align-items: center;
+}
+
+.box-container {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    text-align: center;
+}
+
+br {
+    display: none;
+}
+
+.face {
+    height: 90px;
+    width: 90px;
+}
+}
+
+/* End browsing page */
