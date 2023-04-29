@@ -35,6 +35,11 @@
         width: 100vw;
     }
 
+    .login {
+        position: relative;
+        width: 80%;
+    }
+
     .main-section {
         margin-top: 0px;
         padding: 1%;
@@ -75,6 +80,7 @@
 
     .list li a {
         font-size: 14px;
+        
     }
 
     .content {
@@ -160,6 +166,12 @@
     .main-container {
         width: 100%;
     }
+
+    .login {
+        position: relative;
+        width: 95%;
+    }
+
     h1 {
         font-size: 26px;
     }
@@ -230,3 +242,46 @@
         font-size: 14px;
     }
 }
+
+/* Start browsing page */
+
+@media all and (max-width: 800px) {
+
+.main-section-courses {
+margin-top: 0px;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.areas {
+    align-items: center;
+}
+
+.box-container {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 130px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+br {
+    display: none;
+}
+
+.face {
+    height: 90px;
+    width: 90px;
+}
+}
+
+/* End browsing page */
