@@ -76,11 +76,11 @@ footer {
 }
 
 #logo i:hover {
-    color: #d3cccc;
+    color: #E5E7EB;
 }
 
 #logo h3:hover {
-    color: #d3cccc;
+    color: #E5E7EB;
 }
 
 h3,
@@ -102,8 +102,7 @@ i {
 }
 
 .list li a:hover {
-    background-color: #F9FAF8;
-    color: #1F2937;
+    color: #F9FAF8;
 }
 
 .list li a,
@@ -122,10 +121,6 @@ i {
 
 .content-text {
     width: 48%;
-}
-
-.button:hover {
-    background-color: #27539a;
 }
 
 .content-image {

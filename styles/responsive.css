@@ -1,15 +1,9 @@
 @media all and (max-width: 1000px) {
-
-    .main-section {
-        margin-top: 3%;
-    }
-
     h1 {
         font-size: 34px;
     }
 
-    #logo,
-    .list li a {
+    #logo, .list li a {
         font-size: 16px;
     }
 
@@ -51,8 +45,7 @@
         padding: 1%;
     }
 
-    .main-container,
-    .main-content {
+    .main-container, .main-content {
         width: 80%;
     }
 
@@ -70,7 +63,7 @@
 
     h3,
     i {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .main,
@@ -86,8 +79,8 @@
     }
 
     .list li a {
-        font-size: 16px;
-
+        font-size: 14px;
+        
     }
 
     .content {
@@ -207,7 +200,7 @@
 }
 
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 420px) {
     h1 {
         font-size: 20px;
     }
@@ -250,131 +243,45 @@
     }
 }
 
-/* Start login page */
-
-@media all and (max-width: 1000px) {
-
-    .main {
-        width: 100%;
-    }
-
-    .login {
-        width: 95%;
-    }
-
-    .main-container {
-        width: 80%;
-    }
-
-    .form {
-        width: 85%;
-    }
-}
-
-
-@media all and (max-width: 800px) {
-
-    .form h1 {
-        font-size: 30px;
-    }
-
-    .details input {
-        width: 65%;
-    }
-}
-
-
-@media all and (max-width: 650px) {
-
-    .form h1 {
-        font-size: 28px;
-    }
-
-    .details input {
-        width: 85%;
-    }
-}
-
-@media all and (max-width: 400px) {
-
-    .form h1 {
-        font-size: 24px;
-    }
-
-    .details input {
-        width: 95%;
-    }
-}
-
-/* End login page */
-
-/* Start register page */
-
-@media all and (max-width: 800px) {
-
-    .content-right {
-        margin-left: 0px;
-    }
-
-    .main-section-login {
-        margin-top: 0px;
-    }
-
-    @media all and (max-width: 650px) {
-        .main-section-login .content .content-text h1 {
-            font-size: 28px;
-        }
-    }
-}
-
-/* End register page */
-
 /* Start browsing page */
 
-@media all and (max-width: 1000px) {
-
-    .box-container {
-        flex-wrap: wrap;
-    }
-}
-
 @media all and (max-width: 800px) {
 
-    .main-section-courses {
-        margin-top: 0px;
-    }
+.main-section-courses {
+margin-top: 0px;
+}
 
-    .logo-text {
-        font-size: 20px;
-    }
+.logo-text {
+    font-size: 20px;
+}
 
-    .areas {
-        align-items: center;
-    }
+.areas {
+    align-items: center;
+}
 
-    .box-container {
-        width: 90%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+.box-container {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-    .box {
-        height: 130px;
-        margin-left: 0px;
-        margin-right: 0px;
-        text-align: center;
-    }
+.box {
+    height: 130px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
 
-    br {
-        display: none;
-    }
+br {
+    display: none;
+}
 
-    .face {
-        height: 90px;
-        width: 90px;
-    }
+.face {
+    height: 90px;
+    width: 90px;
+}
 }
 
 /* End browsing page */
