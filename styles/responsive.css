@@ -319,11 +319,79 @@
 
 /* Start browsing page */
 
-@media all and (max-width: 1000px) {
+@media all and (max-width:1500px) {
+    
+    .box-container {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-size: small;
+    }
+
+    .courses {
+        height: 90px;
+        width: 90px;
+    }   
+
+
+    
+}
+
+@media all and (max-width: 1050px) {
 
     .box-container {
         flex-wrap: wrap;
     }
+
+    .main-section {
+        margin-top: 0px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+    
+    .browse-title {
+        font-size: medium;
+    }
+
+    .box-container {
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: justify;
+    }
+
+    .box {
+        height: 130px;        
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-size:small;        
+    }  
+
+    .description{
+        display: none;
+    }
+
+    .courses {
+        height: 60px;        
+        width: 70px;
+    }
+
+    .browse-footer{
+        margin: 0%;
+        font-size: small;
+    }
+
+
 }
 
 @media all and (max-width: 800px) {
@@ -351,13 +419,56 @@
         text-align: center;
     }
 
-    br {
+    
+
+    .description{
         display: none;
     }
 
-    .face {
-        height: 90px;
-        width: 90px;
+    .courses {
+        height: 60px;        
+        width: 70px;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .main-section {
+        margin-top: 0px;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }    
+
+    .box-container {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 130px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-size:x-small;
+    }
+
+    br {
+        display: none;
+    }
+    
+
+    .description{
+        display: none;
+    }
+
+    .courses {
+        height: 50px;        
+        width: 60px;
     }
 }
 

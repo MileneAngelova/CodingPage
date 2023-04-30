@@ -303,8 +303,16 @@ footer {
     transform: scale(1.2);    
 }
 
+.courses {
+    height: 145px;
+    width: 145px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .browse-footer{
     margin: 0%;
 }
+
 
 /* End browse page */
