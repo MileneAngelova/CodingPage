@@ -32,6 +32,11 @@
         width: 100vw;
     }
 
+    .login {
+        position: relative;
+        width: 80%;
+    }
+
     .main-section {
         margin-top: 0px;
         padding: 1%;
@@ -149,9 +154,18 @@
         align-items: center;
     }
 
+    footer {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
 }
 
 @media all and (max-width: 550px) {
+
+    .login {
+        position: relative;
+        width: 95%;
+    }
 
     h1 {
         font-size: 26px;
@@ -228,6 +242,59 @@
     }
 }
 
+/* Start login page */
+
+@media all and (max-width: 1000px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .login {
+        width: 95%;
+    }
+
+    .form {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+
+    .form h1 {
+        font-size: 30px;
+    }
+
+    .details input {
+        width: 65%;
+    }
+}
+
+
+@media all and (max-width: 650px) {
+
+    .form h1 {
+        font-size: 28px;
+    }
+
+    .details input {
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    .form h1 {
+        font-size: 24px;
+    }
+
+    .details input {
+        width: 95%;
+    }
+}
+
+/* End login page */
 
 /* Start register page */
 
@@ -261,17 +328,13 @@
 
 @media all and (max-width: 800px) {
 
-    .main-section-courses {
+    .main-section {
         margin-top: 0px;
     }
 
     .logo-text {
         font-size: 20px;
-    }
-
-    .areas {
-        align-items: center;
-    }
+    }    
 
     .box-container {
         width: 90%;
