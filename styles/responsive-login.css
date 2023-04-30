@@ -5,10 +5,14 @@
         padding: 1% 12%;
     }
 
+    .main-section {
+        height: 400px;
+    }
+
     .content {
         display: flex;
-        margin-top: 3%;
-        margin-bottom: 3%;
+        margin-top: 0px;
+        margin-bottom: 0px;
         align-items: center;
         justify-content: space-between;
     }
@@ -29,7 +33,6 @@
         width: 48%;
     }
 }
-
 
 @media all and (max-width: 800px) {
     
@@ -55,6 +58,10 @@
         padding: 1% 8%;
     }
 
+    .main-section {
+        height: 580px;
+    }
+
     .form h1 {
         font-size: 26px;
     }
@@ -70,7 +77,6 @@
 
 
 @media all and (max-width: 550px) {
-
   
 .main-header, .content {
     flex-direction: column;
@@ -83,10 +89,8 @@
 
 .main-header nav {
     width: 100%;
-}
-
-.list {
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
 }
 
 .form, .content-image {
