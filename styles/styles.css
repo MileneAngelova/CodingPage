@@ -5,7 +5,6 @@
 *::after {
     margin: 0px;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -227,16 +226,11 @@ footer {
     text-align: center;
 }
 
-/* Start of contact page */
-
-.main-section-login {
-    flex-direction: column;
-    align-items: center;
-    background-color: #1F2937;
-    color: #ffffff;
-    display: flex;
+/* Start of register page */
+.banner.register{
+    margin-top: 60px;
+    width: 90%;
 }
-
 .content-right {
     margin-top: 20px;
     margin-left: 120px;
@@ -246,7 +240,9 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    color: #E5E7EB;;
+    
 }
 
 .input {
@@ -256,10 +252,14 @@ footer {
     border: none;
     padding: 15px 20px;
     border-radius: 25px;
-    background: rgb(255, 255, 255);
+    background: #E5E7EB;
     margin-top: 10px;
 }
-
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
 .group {
     text-transform: uppercase;
     width: 60%;
@@ -270,7 +270,7 @@ footer {
     margin-top: 10px;
 }
 
-/* End of contact page */
+/* End of register page */
 
 /* Start of Login Page */
 
