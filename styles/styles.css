@@ -387,17 +387,29 @@ footer {
     flex-direction: row;
     margin-top: 10%;
     margin-bottom: 10%;
+    color:white ;
+    
 }
 
 .box {
     width: 20%;
     height: 200px;
-    margin: 20px;
+    margin: 40px;
+    margin-top: auto;
     box-sizing: border-box;
     justify-content: center;
     padding-left: 45px;
     padding-right: 45px;
     text-align: center;
+    transition: 1s;
+}
+
+.browse-footer{
+    margin: 0%;
+}
+
+.box:hover{
+    transform: scale(1.4);    
 }
 
 /* End browse page */
