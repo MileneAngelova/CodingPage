@@ -348,20 +348,6 @@ footer {
 
 /* Start browse page */
 
-.main-section-courses {
-    padding-top: 1%;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-}
-
-.areas {
-    display: flex;
-    justify-content: center;
-}
-
 .box-container {
     display: flex;
     flex-direction: row;
