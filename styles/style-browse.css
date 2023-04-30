@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Lato:wght@300&family=Montserrat:wght@300;400;600&family=Poppins:wght@200;300;400;600;700&family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,200;1,300&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main,
+.main-section,
+.main-header,
+.list,
+li {
+    display: flex;
+}
+
+.main-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header,
+.main-section,
+footer {
+    background-color: #1F2937;
+}
+
+.main-header,
+.main-section {
+    padding: 1% 10%;
+}
+
+.main-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    width: 75%;
+    flex-direction: column;
+}
+
+.main-header a {
+    text-decoration: none;
+}
+
+.main-header i:hover {
+    color: #d3cccc;
+}
+
+.main-header h3:hover {
+    color: #d3cccc;
+}
+
+.main-header h3 {
+    display: inline-block;
+}
+
+h3,
+i {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+i {
+    margin-right: 7px;
+}
+
+.list li {
+    margin-left: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.list li a:hover {
+    color: white;
+}
+
+.list li a,
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Start browse page */
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    color:white ;
+    
+}
+
+.box {
+    width: 20%;
+    height: 200px;
+    margin: 40px;
+    margin-top: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+    transition: 1s;
+}
+
+.box:hover{
+    transform: scale(1.2);    
+}
+
+.courses {
+    height: 145px;
+    width: 145px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.browse-footer{
+    margin: 0%;
+}
+
+
+/* End browse page */

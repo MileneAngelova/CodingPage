@@ -213,9 +213,7 @@ h2 {
     color: #F9FAF8;
 }
 
-.button.action {
-    border: 1px solid #F9FAF8;
-}
+
 
 footer {
     margin-top: 8%;
@@ -273,46 +271,3 @@ footer {
 }
 
 /* End of register page */
-
-/* Start browse page */
-
-
-.box-container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10%;
-    margin-bottom: 15%;
-    color:white ;
-    
-}
-
-.box {
-    width: 20%;
-    height: 200px;
-    margin: 40px;
-    margin-top: auto;
-    box-sizing: border-box;
-    justify-content: center;
-    padding-left: 45px;
-    padding-right: 45px;
-    text-align: center;
-    transition: 1s;
-}
-
-.box:hover{
-    transform: scale(1.2);    
-}
-
-.courses {
-    height: 145px;
-    width: 145px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.browse-footer{
-    margin: 0%;
-}
-
-
-/* End browse page */
