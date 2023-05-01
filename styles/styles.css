@@ -212,7 +212,9 @@ h2 {
     color: #F9FAF8;
 }
 
-
+.button.action {
+    border: 1px solid #F9FAF8;
+}
 
 footer {
     margin-top: 8%;
