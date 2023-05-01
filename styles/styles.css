@@ -262,7 +262,11 @@ footer {
 .group {
     text-transform: uppercase;
     width: 60%;
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    justify-content: center;
 }
 
 .button.contact {
